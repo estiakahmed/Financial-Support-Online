@@ -30,6 +30,9 @@ nav.navbar.navbar-expand-lg.navbar-light.mainnavbar.sticky-top {
 }
 .mydropdown {
 }
+svg.svg-inline--fa.fa-check-circle.fa-w-16 {
+    color: white;
+}
 .dropdown-menu[data-bs-popper] {
     top: 143%;
     left: -208px;
@@ -141,6 +144,7 @@ section.fourcoin {
 .coinone {
     padding-top: 58px;
     padding-bottom: 58px;
+    text-align: center;
 }
 .coinone p {
     font-size: 18px;
@@ -153,7 +157,7 @@ section.fourcoin {
     color: white;
 }
 .coinone.no1 {
-    margin-left: 56px;
+    /* margin-left: 56px; */
 }
 .col-xs-12.col-sm-6.col-md-3.twoone {
     background-color: #1e75bb;
@@ -161,13 +165,13 @@ section.fourcoin {
 }
 
 .coinone.no2 {
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 .coinone.no3 {
-    margin-left: 70px;
+    /* margin-left: 70px; */
 }
 .coinone.no4 {
-    margin-left: 38px;
+    /* margin-left: 38px; */
 }
 /*4 colum section end*/
 /*peace section start*/
@@ -186,15 +190,16 @@ section.fourcoin {
     font-family: "Montserrat";
     box-shadow: 0px 0px 10px #c0d9ec;
     margin-top: 50px;
+    text-align: center;
 }
 .box1 img {
     margin-top: -21px;
-    margin-left: 65px;
+    /* margin-left: 65px; */
     padding-bottom: 14px;
 }
 
 .box1 p {
-    padding-left: 65px;
+    /* padding-left: 65px; */
     font-size: 18px;
     font-weight: 700;
     padding-bottom: 25px;
@@ -261,6 +266,7 @@ section.examplesec {
     font-weight: 600;
     color: white;
     padding-left: 15px;
+    text-align: left;
 }
 .box1txt p span {
     color: black;
@@ -272,7 +278,7 @@ section.examplesec {
 }
 .box1txt.txtbox2 {
     text-align: right;
-    padding-right: 18px;
+    padding-left: 110px;
 }
 .imgheading {
     text-align: center;
@@ -337,7 +343,7 @@ p.lasttext {
     box-shadow: 0px 0px 12px #c0d9ec;
     border-radius: 10px;
     background-color: #27a8e0;
-    color: black;
+    color: white;
     text-align: center;
     margin: 38px 20px;
 }
