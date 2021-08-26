@@ -1,0 +1,622 @@
+/*992 px*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    button.btn.btn-primary.checkbutton {
+        margin-left: 349px;
+    }
+    .footerboxbutton button {
+        width: 216px;
+        font-size: 21px;
+    }
+}
+
+/*768 px*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    button.btn.btn-primary.checkbutton {
+        margin-left: 353px;
+        font-size: 20px;
+        width: 253px;
+        margin-top: -73px;
+    }
+    .dropdown {
+        margin-top: -73px;
+    }
+    .col-12.headingtxt h1 {
+        font-size: 34px;
+        font-weight: 600;
+        padding-bottom: 50px;
+    }
+    .col-12.headingtxt p {
+        color: black;
+        font-size: 20px;
+        line-height: 43px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        padding-bottom: 25px;
+    }
+    .txtdiv {
+        width: 554px;
+        position: relative;
+    }
+    .txtdiv p {
+        font-family: "Montserrat";
+        color: white;
+        font-weight: 600;
+        padding-left: 23px;
+        padding-top: 40px;
+        padding-bottom: 39px;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .imgdiv {
+        /* width: 474px; */
+        float: right;
+        margin-top: -408px;
+        z-index: 1;
+    }
+    .imgdiv img {
+        z-index: 0;
+        width: 425px;
+    }
+    .box1 img {
+        margin-top: -21px;
+        margin-left: 38px;
+        padding-bottom: 14px;
+    }
+    .box1 p {
+        padding-left: 22px;
+        font-size: 15px;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+    .box1txt p {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        padding-left: 15px;
+    }
+    .typebox img {
+        margin-top: -24px;
+        padding-bottom: 8px;
+        width: 67px;
+    }
+    .typebox p {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+    .footerboxbutton button {
+        border: none;
+        width: 172px;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px 0px 20px 0px;
+        background-image: linear-gradient(to right, #ffffff, #27a8e0cf);
+        padding: 9px 4px;
+        transition: 0.4s;
+    }
+    .footerbox a {
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: bold;
+        transition: 0.4s;
+    }
+}
+/*576px*/
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    button.btn.btn-primary.checkbutton {
+        width: 167px;
+        font-size: 14px;
+        margin-left: 110px;
+    }
+    a.navbar-brand img {
+        width: 150px;
+    }
+    .dropdown {
+        margin-top: -73px;
+        margin-top: 0;
+        position: relative;
+        right: 0px;
+    }
+    svg.svg-inline--fa.fa-bars.fa-w-14 {
+        font-size: 24px;
+    }
+    .col-12.headingtxt h1 {
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 43px;
+    }
+    .col-12.headingtxt p {
+        color: black;
+        font-size: 18px;
+        line-height: 43px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+    button.checkbutton.whitecheck {
+        border: none;
+        width: 256px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px 0px 20px 0px;
+        padding: 8px 8px 8px 8px;
+        color: #1e75bb;
+        background: white;
+        transition: 0.5s;
+    }
+    .txtdiv {
+        width: 520px;
+        position: relative;
+    }
+    .txtdiv p {
+        font-family: "Montserrat";
+        color: white;
+        font-weight: 600;
+        padding-left: 27px;
+        padding-top: 40px;
+        padding-bottom: 39px;
+        line-height: 25px;
+        font-size: 14px;
+        padding-right: 5px;
+    }
+    section.about {
+        margin-top: 120px;
+    }
+    .imgdiv img {
+        z-index: 0;
+        width: 400px;
+        margin-right: 60px;
+    }
+    .imgdiv {
+        float: right;
+        margin-top: 0px;
+        z-index: 1;
+    }
+    .box1 img {
+        margin-top: -21px;
+        margin-left: 15px;
+        padding-bottom: 14px;
+        width: 47px;
+    }
+    .box1 p {
+        padding-left: 16px;
+        font-size: 13px;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+    .box1txt p {
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+        padding-left: 12px;
+    }
+    .exampleheading h1 {
+        text-align: center;
+        font-size: 26px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        color: #1e75bb;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .rowheading1 h1 {
+        font-size: 26px;
+        font-weight: 600;
+        color: white;
+        padding-top: 45px;
+    }
+    .imgbox1 h1 {
+        font-size: 29px;
+        font-weight: 600;
+        color: #1e75bb;
+        line-height: 60px;
+    }
+    .typebox img {
+        margin-top: -22px;
+        padding-bottom: 11px;
+        width: 62px;
+    }
+    .typebox p {
+        font-family: "Montserrat";
+        font-size: 19px;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+    .footerboxbutton button {
+        border: none;
+        width: 180px;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px 0px 20px 0px;
+        background-image: linear-gradient(to right, #ffffff, #27a8e0cf);
+        padding: 3px 0px;
+        transition: 0.4s;
+    }
+    .footerbox a {
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.4s;
+    }
+    .footerbox {
+        padding-bottom: 22px;
+    }
+}
+/*480 px*/
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+    button.btn.btn-primary.checkbutton {
+        width: 167px;
+        font-size: 14px;
+        margin-left: 233px;
+        margin-top: -65px;
+    }
+    a.navbar-brand img {
+        width: 170px;
+    }
+    svg.svg-inline--fa.fa-bars.fa-w-14 {
+        font-size: 24px;
+    }
+    .dropdown {
+        position: relative;
+        right: 0px;
+        margin-top: -65px;
+    }
+    .col-12.headingtxt h1 {
+        font-size: 26px;
+        font-weight: 600;
+        padding-bottom: 53px;
+    }
+    .col-12.headingtxt p {
+        color: black;
+        font-size: 16px;
+        line-height: 43px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+    button.checkbutton.whitecheck {
+        border: none;
+        width: 263px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px 0px 20px 0px;
+        padding: 8px 8px 8px 8px;
+        color: #1e75bb;
+        background: white;
+        transition: 0.5s;
+    }
+    .txtdiv p {
+        font-family: "Montserrat";
+        color: white;
+        font-weight: 600;
+        padding-left: 18px;
+        padding-top: 40px;
+        padding-bottom: 39px;
+        line-height: 25px;
+        font-size: 14px;
+        padding-right: 5px;
+    }
+    .txtdiv {
+        width: 455px;
+        position: relative;
+    }
+    .imgdiv img {
+        z-index: 0;
+        width: 390px;
+        margin-right: 41px;
+    }
+    .imgdiv {
+        float: right;
+        margin-top: 0px;
+        z-index: 1;
+    }
+    .box1txt {
+        padding-top: 45px;
+        text-align: center;
+    }
+    .box1txt p {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        padding-left: 12px;
+    }
+    .box1txt.txtbox2 {
+        text-align: center;
+        padding-right: 18px;
+    }
+    .imgbox1 {
+        font-family: "Montserrat";
+        text-align: center;
+    }
+    .imgbox1 h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #1e75bb;
+        line-height: 60px;
+    }
+    .imgbox1.imgbox2 {
+        padding-right: 85px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .footerbox {
+        padding-bottom: 22px;
+        text-align: center;
+    }
+    .footerboxbutton {
+        text-align: center;
+    }
+    .footerbox a {
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.4s;
+    }
+    .footerboxbutton button {
+        border: none;
+        width: 266px;
+        font-size: 23px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px 0px 20px 0px;
+        background-image: linear-gradient(to right, #ffffff, #27a8e0cf);
+        padding: 5px 5px;
+        transition: 0.4s;
+    }
+}
+/*320 px*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        width: 710px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.mainnavbar.sticky-top {
+        background-color: white;
+        width: 710px;
+    }
+    .dropdown {
+        margin-top: -82px;
+    }
+    button.btn.btn-primary.checkbutton {
+        width: 285px;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px 0px 20px 0px;
+        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
+        border: none;
+        margin-left: 318px;
+        margin-top: -82px;
+    }
+    a.navbar-brand img {
+        width: 240px;
+    }
+    .banner {
+        background-image: url(../bg.jpg);
+        width: 710px;
+        height: 670px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .txtdiv {
+        width: 686px;
+        position: relative;
+    }
+    .txtdiv p {
+        font-family: "Montserrat";
+        color: white;
+        font-weight: 600;
+        padding-left: 27px;
+        padding-top: 40px;
+        padding-bottom: 39px;
+        line-height: 34px;
+        font-size: 22px;
+        padding-right: 8px;
+    }
+    .imgdiv {
+        /* width: 472px; */
+        margin-top: 8px;
+        z-index: 1;
+        margin-right: 72px;
+    }
+    .imgdiv img {
+        width: 525px;
+    }
+    section.fourcoin {
+        background-color: #f9eeee;
+        width: 710px;
+    }
+    .coinone p {
+        font-size: 33px;
+        font-weight: bold;
+        padding-top: 30px;
+        font-family: "Montserrat";
+    }
+    .coinone.no1 {
+        margin-left: 160px;
+    }
+    .coinone.no4 {
+        margin-left: 160px;
+    }
+    .coinone.no2 {
+        margin-left: 160px;
+    }
+    .coinone.no3 {
+        margin-left: 160px;
+    }
+    .peaceheading h1 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #1e75bb;
+    }
+    .box1 p {
+        padding-left: 65px;
+        font-size: 37px;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+    .box1 img {
+        margin-top: -21px;
+        margin-left: 65px;
+        padding-bottom: 14px;
+        width: 110px;
+    }
+    button.checkbutton {
+        width: 400px;
+        font-size: 32px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px 0px 20px 0px;
+        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
+        border: none;
+        color: white;
+        padding: 12px 8px 8px 8px;
+    }
+    .peacebutton {
+        margin: auto;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    section.examplesec {
+        margin-top: 50px;
+        background-color: #f9eeee;
+        width: 710px;
+    }
+    .exampleheading h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        color: #1e75bb;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .rowheading1 h1 {
+        font-size: 38px;
+        font-weight: 600;
+        color: white;
+        padding-top: 45px;
+    }
+    .box1txt {
+        padding-top: 45px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .box1txt p {
+        font-family: "Montserrat";
+        font-size: 38px;
+        font-weight: 600;
+        color: white;
+        padding-left: 15px;
+    }
+    .box1txt.txtbox2 {
+        text-align: center;
+        padding-right: 18px;
+    }
+    .imgheading h2 {
+        color: #1e75bb;
+        font-size: 38px;
+        font-weight: 600;
+        padding-top: 30px;
+    }
+    .imgbox1 {
+        font-family: "Montserrat";
+        text-align: center;
+    }
+    .imgbox1 h1 {
+        font-size: 56px;
+        font-weight: 600;
+        color: #1e75bb;
+        line-height: 89px;
+    }
+    .imgbox1 p {
+        color: #1e75bb;
+        font-size: 30px;
+    }
+    .imgbox1.imgbox2 {
+        float: right;
+        text-align: center;
+        padding-right: 106px;
+        padding-top: 70px;
+    }
+    p.lasttext {
+        text-align: center;
+        font-family: "Montserrat";
+        padding-top: 100px;
+        padding-bottom: 65px;
+        font-size: 27px;
+    }
+    .typeheader h2 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #1e75bb;
+        padding-top: 78px;
+        padding-bottom: 60px;
+    }
+    .typebox p {
+        font-family: "Montserrat";
+        font-size: 42px;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+    .typebox img {
+        margin-top: -40px;
+        padding-bottom: 11px;
+        width: 140px;
+    }
+    .termstext p {
+        font-family: "Montserrat";
+        font-weight: 500;
+        line-height: 45px;
+        padding-top: 61px;
+        padding-bottom: 50px;
+        font-size: 27px;
+    }
+    section.footer {
+        background-color: #1e75bb;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 26px;
+        width: 710px;
+    }
+    .footerbox {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .footerbox a {
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat";
+        font-size: 30px;
+        font-weight: bold;
+        transition: 0.4s;
+    }
+    .footerboxbutton {
+        text-align: center;
+    }
+    .footerboxbutton button {
+        border: none;
+        width: 315px;
+        font-size: 29px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px 0px 20px 0px;
+        background-image: linear-gradient(to right, #ffffff, #27a8e0cf);
+        padding: 10px 5px;
+        transition: 0.4s;
+    }
+}
