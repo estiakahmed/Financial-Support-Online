@@ -1,234 +1,226 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
 * {
     margin: 0;
     padding: 0;
-}
-a.navbar-brand img {
-    width: 198px;
-}
-/*common btn*/
-button.btn.btn-primary.checkbutton {
-    width: 285px;
-    font-size: 24px;
-    font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    border-radius: 20px 0px 20px 0px;
-    background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-    border: none;
-    margin-left: 521px;
 }
-button.btn.btn-primary.checkbutton:hover {
-    background-image: linear-gradient(to right, #27a8e0cf, #1e75bb);
-    transition: ease 0.5s;
+/*navigation start*/
+a.navbar-brand img {
+    width: 180px;
 }
-
-nav.navbar.navbar-expand-lg.navbar-light.mainnavbar.sticky-top {
-    background-color: white;
-}
-.mainnavbar {
-    box-shadow: 0px 4px 10px #c0d9ec;
-}
-.mydropdown {
-}
-svg.svg-inline--fa.fa-check-circle.fa-w-16 {
-    color: white;
-}
-.dropdown-menu[data-bs-popper] {
-    top: 143%;
-    left: -208px;
-    margin-top: 0.125rem;
-    background-color: white;
-    font-family: "Montserrat";
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-}
-svg.svg-inline--fa.fa-bars.fa-w-14 {
+button#dropdownMenuButton1 {
     font-size: 34px;
 }
-ul#mydropdown li a {
-    font-size: 21px;
-    font-weight: 500;
+button.btn.btn-primary.checkbtn {
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    padding: 0px 8px;
+    width: 293px;
+    border-radius: 20px 0px;
+    margin-right: 22px;
+    background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
+    height: 50px;
+    margin-top: 7px;
+    transition: 0.4s;
+}
+button.btn.btn-primary.checkbtn:hover {
+    background-image: linear-gradient(to right, #27a8e0cf, #1e75bb);
+}
+nav.navbar.navbar-light.mainnav {
+    box-shadow: 0px 4px 9px #c0d9ec;
+    background: white;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 114%;
+    left: -150px;
+    margin-top: 0.125rem;
+}
+a.dropdown-item {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 13px;
 }
 
+/*navigation end*/
+
 /*banner area start*/
-.banner {
-    background-image: url(../bg.jpg);
+section.bannerarea {
+    background-image: url(../image/bg.jpg);
     width: 100%;
     height: 610px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.col-12.headingtxt {
-    text-align: center;
+.headingtxt {
+    text-align: left;
     color: white;
-    padding-top: 122px;
-    font-family: "Montserrat";
 }
-.col-12.headingtxt h1 {
-    font-size: 42px;
+
+.headingtxt h1 {
+    font-weight: 700;
+    font-size: 31px;
+    padding-top: 110px;
+    padding-bottom: 30px;
+    line-height: 41px;
+}
+.headingtxt h1 span {
+    color: #fcc835;
+}
+.headingtxt p {
+    color: white;
+    font-size: 21px;
+    line-height: 44px;
     font-weight: 600;
-    padding-bottom: 53px;
 }
-.col-12.headingtxt p {
-    color: black;
-    font-size: 23px;
-    line-height: 43px;
-    font-family: "Montserrat";
-    font-weight: 600;
-    padding-bottom: 40px;
+.headingtxt p i {
+    color: white;
 }
-.col-12.headingtxt h1 span {
-    color: black;
-}
-button.checkbutton.whitecheck {
-    border: none;
-    width: 285px;
+button.secondcheckbtn {
     font-size: 24px;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 20px 0px 20px 0px;
-    padding: 8px 8px 8px 8px;
-    color: #1e75bb;
+    border: none;
+    padding: 0px 8px;
+    width: 293px;
+    border-radius: 20px 0px;
+    height: 50px;
+    transition: 0.4s;
     background: white;
-    transition: 0.5s;
+    margin-top: 42px;
+    color: #1e76bc;
 }
-button.checkbutton.whitecheck:hover {
-    background: black;
+button.secondcheckbtn:hover {
+    background: #27a8e1;
     color: white;
 }
-/*about area start*/
-section.about {
-    margin-top: 160px;
-    padding-bottom: 160px;
+.bannerimgbox {
+    float: right;
 }
-.txtdiv {
-    background-color: #27a8e0;
+.bannerimgbox img {
+    padding-top: 60px;
+}
+
+/*banner area end*/
+
+/*aboutsection start*/
+.txtbox {
+    width: 718px;
+    background: #27a8e0;
     color: white;
     border-radius: 20px 0px;
-    box-shadow: 0px 0px 12px #c0d9ec;
-    z-index: 19;
-    margin-top: 10px;
+    position: relative;
+    z-index: 20;
+    box-shadow: 0px 0px 7px #1e75bb;
 }
-.txtdiv p {
-    font-family: "Montserrat";
+.txtbox p {
     color: white;
     font-weight: 600;
     padding-left: 53px;
     padding-top: 40px;
     padding-bottom: 39px;
-    line-height: 25px;
+    line-height: 27px;
 }
-.txtdiv {
-    width: 700px;
-    position: relative;
-}
-
-.imgdiv {
-    /* width: 474px; */
-    float: right;
-    margin-top: -426px;
-    z-index: 1;
-}
-.imgdiv img {
-    z-index: 0;
-}
-.txtdiv p span {
+.txtbox p span {
     color: black;
 }
-/*about sectio end*/
-
-/*4 colum section start*/
-section.fourcoin {
-    background-color: #f9eeee;
+.imgbox {
+    float: right;
+    margin-top: -440px;
+    z-index: 2;
 }
-.coinone {
+
+.imgbox img {
+    z-index: 6;
+}
+section.about {
+    padding-top: 128px;
+    padding-bottom: 130px;
+}
+
+/*about section end*/
+
+/*four coin section start*/
+section.fourcoin {
+    background: #f9eeee;
+}
+.coinbox {
+    text-align: center;
     padding-top: 58px;
     padding-bottom: 58px;
-    text-align: center;
 }
-.coinone p {
+
+.coinbox p {
     font-size: 18px;
     font-weight: bold;
     padding-top: 30px;
-    font-family: "Montserrat";
 }
-.col-xs-12.col-sm-6.col-md-3.firstone {
-    background-color: #27a8e0;
+.col-xs-12.col-sm-6.col-md-3.coinno2 {
+    background: #27a8e0;
     color: white;
 }
-.coinone.no1 {
-    /* margin-left: 56px; */
-}
-.col-xs-12.col-sm-6.col-md-3.twoone {
-    background-color: #1e75bb;
+.col-xs-12.col-sm-6.col-md-3.coinno3 {
+    background: #1e75bb;
     color: white;
 }
 
-.coinone.no2 {
-    /* margin-left: 40px; */
-}
-.coinone.no3 {
-    /* margin-left: 70px; */
-}
-.coinone.no4 {
-    /* margin-left: 38px; */
-}
-/*4 colum section end*/
+/*four coin end*/
+
 /*peace section start*/
 .peaceheading {
+    font-size: 31px;
+    color: #1e75bb;
     text-align: center;
-    font-family: "Montserrat";
-    padding-top: 130px;
 }
 
-.peaceheading h1 {
-    font-size: 31px;
+.peaceheading h2 {
     font-weight: 600;
-    color: #1e75bb;
 }
-.box1 {
-    font-family: "Montserrat";
+section.peacesection {
+    padding-top: 130px;
+}
+.peacebox {
+    text-align: center;
     box-shadow: 0px 0px 10px #c0d9ec;
     margin-top: 50px;
-    text-align: center;
 }
-.box1 img {
+
+.peacebox img {
     margin-top: -21px;
-    /* margin-left: 65px; */
     padding-bottom: 14px;
 }
 
-.box1 p {
-    /* padding-left: 65px; */
-    font-size: 18px;
+.peacebox p {
+    font-size: 17px;
     font-weight: 700;
     padding-bottom: 25px;
 }
 .row.peacerow {
     margin-top: 50px;
 }
-.peacebutton {
-    margin: auto;
+button.checkbtn {
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    padding: 0px 8px;
+    width: 293px;
+    border-radius: 20px 0px;
+    background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
+    height: 50px;
+    transition: 0.4s;
+    color: white;
+}
+button.checkbtn:hover {
+    background-image: linear-gradient(to right, #27a8e0cf, #1e75bb);
+}
+.peacebtn {
     text-align: center;
     padding-top: 30px;
 }
+button#peacecheck {
+    margin-bottom: 50px;
+}
 
-button.checkbutton {
-    width: 285px;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 20px 0px 20px 0px;
-    background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-    border: none;
-    color: white;
-    padding: 8px 8px 8px 8px;
-}
-button.checkbutton:hover {
-    background-image: linear-gradient(to right, #27a8e0cf, #1e75bb);
-    transition: ease 0.5s;
-}
 /*peace section end*/
+
 /*example section start*/
 .exampleheading h1 {
     text-align: center;
@@ -240,105 +232,88 @@ button.checkbutton:hover {
     padding-bottom: 60px;
 }
 section.examplesec {
-    margin-top: 50px;
-    background-color: #f9eeee;
+    background: #f9eeee;
 }
-.rowheading1 {
-    text-align: center;
-    font-family: "Montserrat";
-}
-
-.rowheading1 h1 {
+.exampletxt h1 {
     font-size: 33px;
     font-weight: 600;
     color: white;
     padding-top: 45px;
-}
-.row.txtrow1 {
-    background-color: #1e75bb;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: 0px 0px 10px #c0d9ec;
+    text-align: center;
 }
 
-.box1txt p {
+.exampletxt {
+}
+.exmlebox p {
     font-family: "Montserrat";
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 600;
+    padding-left: 65px;
     color: white;
-    padding-left: 15px;
-    text-align: left;
+    line-height: 55px;
 }
-.box1txt p span {
+.exmlebox p span {
     color: black;
-    font-weight: 700;
+    font-weight: 800;
 }
-.box1txt {
-    padding-top: 45px;
-    padding-bottom: 60px;
+.row.exmrow {
+    background: #1e75bb;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 10px #c0d9ec;
+    padding-bottom: 30px;
 }
-.box1txt.txtbox2 {
-    text-align: right;
-    padding-left: 110px;
-}
-.imgheading {
-    text-align: center;
-    font-family: "Montserrat";
-    padding-top: 60px;
+.exmlebox {
+    padding-top: 50px;
 }
 .imgheading h2 {
     color: #1e75bb;
     font-size: 27px;
     font-weight: 600;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
-.imgheading h2 span {
+.imgheading span {
     color: black;
 }
-.imgbox1 {
-    font-family: "Montserrat";
-}
-
-.imgbox1 h1 {
+.exmimgbox1 h2 {
     font-size: 38px;
     font-weight: 600;
     color: #1e75bb;
     line-height: 60px;
 }
 
-.imgbox1 h1 span {
+.exmimgbox1 h2 span {
     color: black;
 }
-.imgbox1 p {
+.exmimgbox1 p {
     color: #1e75bb;
 }
-.row.imgrow {
-    padding-top: 78px;
+.row.exrow2 {
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.imgbox1.imgbox2 {
-    float: right;
+.exmimgbox1.blackimgbox {
     text-align: right;
 }
-p.lasttext {
+.lastp {
     text-align: center;
-    font-family: "Montserrat";
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.typeheader {
-    font-family: "Montserrat";
-    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
-.typeheader h2 {
+/*example section end*/
+
+/*type section start*/
+.typeheading h1 {
     font-size: 38px;
     font-weight: 600;
     color: #1e75bb;
     padding-top: 78px;
     padding-bottom: 60px;
+    text-align: center;
 }
-
-/*example section end*/
-/*type section start*/
 .typebox {
     box-shadow: 0px 0px 12px #c0d9ec;
     border-radius: 10px;
@@ -348,37 +323,36 @@ p.lasttext {
     margin: 38px 20px;
 }
 
-.typebox img {
-    margin-top: -40px;
-    padding-bottom: 11px;
-}
-
 .typebox p {
-    font-family: "Montserrat";
     font-size: 27px;
     font-weight: 500;
     padding-bottom: 30px;
 }
-.checkbuttonlast {
-    text-align: center;
-    padding-top: 30px;
+
+.typebox img {
+    margin-top: -40px;
+    padding-bottom: 11px;
 }
-.termstext p {
-    font-family: "Montserrat";
+.typebtn {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/*type section end*/
+/*textsection start*/
+.textfootbox p {
     font-weight: 500;
     line-height: 30px;
-    padding-top: 61px;
     padding-bottom: 50px;
 }
-/*type section end*/
-/*footer section start*/
+/*textsection end*/
+/*footer start*/
 section.footer {
     background-color: #1e75bb;
     color: white;
     padding-top: 50px;
     padding-bottom: 26px;
 }
-
 .footerbox a {
     text-decoration: none;
     color: white;
@@ -392,8 +366,8 @@ section.footer {
 }
 .footerboxbutton button {
     border: none;
-    width: 285px;
-    font-size: 24px;
+    width: 200px;
+    font-size: 18px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     border-radius: 20px 0px 20px 0px;
@@ -402,7 +376,7 @@ section.footer {
     transition: 0.4s;
 }
 .footerboxbutton button:hover {
-    background: #27a8e0;
+    background: #27a8e0cf;
     color: white;
 }
-/*footer section end*/
+/*footer end*/
